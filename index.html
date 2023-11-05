@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Qwigley' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-4" style="background: #FFFFFF;">
+        <div class="container-fluid d-flex w-full">
+            <div style="width: 20%;">
+                <span class="navbar-brand mb-0 h1"
+                    style="width: 221px; height: 96px; margin-left: 169px; font-weight: 400; color: #FFB30E;  font-family: 'Qwigley'; font-size: 80px ; ">Hot
+                    meals</span>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav" style="width: 80%">
+                <ul class="navbar-nav" style="width: 100%;">
+                    <li class="nav-item" style="width: 50%; margin-left: 200px;">
+                        <a class="nav-link active " aria-current="page" style="font-weight: bold; font-family: 
+                        Open Sans;"> Deliver
+                            to: <i class='bx bxs-edit-location' style="font-weight: normal; color: #FFB30E;"></i>
+                            <span style="font-weight: normal;">Current Location</span> Ashok Nagar, Chennai 600013</a>
+                    </li>
+                    <li class="nav-item" style="width: 10%; float: right; font-weight: bold;">
+                        <a class="nav-link"><i class='bx bx-search' style="color: #fd7e14;"></i> Search Food</a>
+                    </li>
+                    <li class="nav-item" style="width: 10%; float: right;">
+                        <a class="nav-link">
+                            <button class="btn btn-outline-warning" style="font-weight: bold; align-items: center;">
+                                <i class='bx bxs-user'></i> Login
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="search">
+        <div class="d-flex" style="width: 100%;">
+            <div class="far-meals" style="width: 60%;">
+                <p style="font-family: 'Qwigley'; color: #FFFFFF; font-size: 88px; font-weight: 400; height: 88px;">
+                    Look at your fav Meals
+                </p><br />
+                <span style=" font-family: 'Source Sans Pro';font-size: 22px; height: 26px; font-weight: 400;">
+                    Within a few clicks, find meals that are accessible near you
+                </span>
+                <div>
+                    <div class="mb-3" style="width: 856px; padding-top: 20px; position: relative;">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div>
+                            <button type="button" class="btn btn-warning"
+                                style="position: absolute ; left: 80px; top: 40px; border-radius: 10px; border: none; background: #F172281A;color: #F17228;font-weight: 700; height: 38px; width: 148px;">Delivery</button>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-warning"
+                                style="position: absolute ; left: 300px; top: 40px; border-radius: 10px; border: none; background: whitesmoke ;color: black;font-weight: 700; height: 38px; width: 148px;">Pickup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 40%; padding-top: 100px;">
+                <img src="https://media.istockphoto.com/id/678627500/photo/south-indian-meals-served-in-a-banana-leaf-on-white-background.jpg?s=612x612&w=0&k=20&c=gZ0-FAiHTs9HCJE3b33yHjWvq7fl72Sx7zECTLjPqUs="
+                    style="height: 424px; width: 524px;" />
+            </div>
+        </div>
+    </section>
+    <section class="my-5 container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class=" offer-banner rounded-3 "
+                    style="background-image: url('https://cdn.tarladalal.com/members/9306/big/big_medu_vada_(_south_indian_recipe)-14245.jpg'); background-position: center;">
+                </div>
+                <div style="padding-top: 20px; font-weight: bold;"> Vada </div>
+                <input class="textbox d-flex align-items-center mt-2"
+                    style="background: #F1722833; color:#F17228; border: none; font-weight: bold;"
+                    value="30 min Delivery" />
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class=" offer-banner rounded-3 "
+                    style="background-image: url('https://cdn.tarladalal.com/members/9306/big/big_idli-15862.jpg?size=696X905');background-position: center;">
+                </div>
+                <div style="padding-top: 20px; font-weight: bold;"> Idly </div>
+                <input class="textbox d-flex align-items-center mt-2"
+                    style="background: #F1722833; color:#F17228; border: none; font-weight: bold;"
+                    value="30 min Delivery" />
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class=" offer-banner rounded-3 "
+                    style="background-image: url('https://c.ndtvimg.com/2021-05/tj7sdqj8_parotta_625x300_14_May_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350');background-position: center;">
+                </div>
+                <div style="padding-top: 20px; font-weight: bold;"> Parotta </div>
+                <input class="textbox d-flex align-items-center mt-2"
+                    style="background: #F1722833; color:#F17228; border: none; font-weight: bold;"
+                    value="30 min Delivery" />
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class=" offer-banner rounded-3 "
+                    style="background-image: url('https://www.vegrecipesofindia.com/wp-content/uploads/2017/03/rava-kichadi-recipe.jpg'); background-position: center;">
+                </div>
+                <div style="padding-top: 20px; font-weight: bold;"> Kichadi </div>
+                <input class="textbox d-flex align-items-center mt-2"
+                    style="background: #F1722833; color:#F17228; border: none; font-weight: bold;"
+                    value="30 min Delivery" />
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <section class="search-food" style="padding-top: 100px;">
+        <div class="food pb-5" style="padding-left: 70px;">
+            Search by Food
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-6" style="padding-left: 70px;">
+                <div>
+                    <img src="https://vismaifood.com/storage/app/uploads/public/45a/29b/a17/thumb__700_0_0_0_auto.jpg"
+                        class="food-banner rounded-circle" />
+                </div>
+                <div style="font-weight: 700; font-size: 22px; padding-top: 20px; padding-left: 40px;">
+                    Dosa
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-3 col-sm-6" style="padding-left: 20px;">
+                <div>
+                    <img src="https://www.padhuskitchen.com/wp-content/uploads/2017/11/appamkeralastyle.jpg"
+                        class="food-banner rounded-circle" />
+                </div>
+                <div style="font-weight: 700; font-size: 22px; padding-top: 20px; padding-left: 40px;">
+                    Aappam
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-3 col-sm-6" style="padding-left: 10px;">
+                <div>
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/blog/2021/02/1614242722_Puttu_big_450.jpg"
+                        class="food-banner rounded-circle" />
+                </div>
+                <div style="font-weight: 700; font-size: 22px; padding-top: 20px; padding-left: 40px;">
+                    Puttu
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-3 col-sm-6" style="padding-left: 10px;">
+                <div>
+                    <img src="https://www.shutterstock.com/image-photo/south-india-food-idiyappam-coconut-260nw-2163126693.jpg"
+                        class="food-banner rounded-circle" />
+                </div>
+                <div style="font-weight: 700; font-size: 22px; padding-top: 20px; padding-left: 40px;">
+                    Idiyappam
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-3 col-sm-6" style="padding-left: 10px;">
+                <div>
+                    <img src="https://www.spiceindiaonline.com/wp-content/uploads/2014/01/Ven-Pongal-3.jpg"
+                        class="food-banner rounded-circle" />
+                </div>
+                <div style="font-weight: 700; font-size: 22px; padding-top: 20px; padding-left: 40px;">
+                    Pongal
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-3 col-sm-6" style="padding-left: 10px;">
+                <div>
+                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/veg-pulao-recipe.jpg"
+                        class="food-banner rounded-circle" />
+                </div>
+                <div style="font-weight: 700; font-size: 22px; padding-top: 20px; padding-left: 40px;">
+                    Veg Rice
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="d-flex" style="width:100%; padding-top: 100px;">
+            <div style="width:40%; margin-left: 200px;">
+                <div class="card" style="width: 407px; height: 292px; border: none;padding-top: 80px;">
+                    <div class="card-body">
+                        <div class="card-title" style="font-weight: 700; font-size: 43px; font-size: 43px;">Best deals
+                            <span style="color: #FFB30E;">
+                                Crispy Diffen
+                            </span>
+                        </div>
+                        <p class="card-text"
+                            style="font-weight: 600; font-size: 18px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: #616161;">
+                            Enjoy the large size of Dosa. Complete
+                            perfect slice of Dosa.</p>
+                        <div style="margin-bottom: 50px;">
+                        </div>
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                            <button class="btn btn-primary" type="button"
+                                style="height: 60px; background: #FFB800;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px;">PROCEED
+                                TO ORDER ></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 60%; ">
+                <img src="https://as2.ftcdn.net/v2/jpg/02/17/39/75/1000_F_217397519_MqLzfynUsUKGvZj1AB3iPREmr11sYRhk.jpg"
+                    style="width: 861px; height: 512px;border-radius: 20px;" />
+            </div>
+        </div>
+    </section>
+    <section style="padding-top: 100px; padding-bottom: 100px;">
+        <h3 style="font-weight: 700; font-size: 40px; text-align: center; padding-bottom: 50px;">
+            Popular items
+        </h3>
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-1.5 col-md-3 col-sm-6">
+                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/murukku-recipe.jpg"
+                        style="height: 283px; width: 283px; border-radius: 20px; justify-content: center;" />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Murukku</div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-1.5 col-md-3 col-sm-6">
+                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2016/04/paniyaram-recipe-1.jpg"
+                        style="height: 283px; width: 283px; border-radius: 20px; padding-bottom: 10px; justify-content: center;" />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Paniyaram</div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-1.5 col-md-3 col-sm-6">
+                    <img src="https://i.ytimg.com/vi/39ULqgZPM4A/maxresdefault.jpg"
+                        style="height: 283px; width: 283px; border-radius: 20px; padding-bottom: 10px; justify-content: center; " />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Seeval Murukku</div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-1.5 col-md-3 col-sm-6">
+                    <img src="https://www.aromabakeryonline.com/image/cache/catalog/products/traditional-mixture-600x600.jpg"
+                        style="height: 283px; width: 283px; border-radius: 20px; padding-bottom: 10px; justify-content: center;" />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Mixture </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-1.5 col-md-3 col-sm-6" style="padding-top: 15px;">
+                    <img src="https://media.istockphoto.com/id/1198039007/photo/autumn-pumpkin-soup-and-ingredients-on-wood.jpg?s=1024x1024&w=is&k=20&c=Dw5Zs9HnSM0QtCI39qu0Sn_R5YotjLAsID_S_RTLVIQ="
+                        style="height: 283px; width: 283px; border-radius: 20px; padding-bottom: 10px; justify-content: center;" />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Veg Soup </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-1.5 col-md-3 col-sm-6" style="padding-top: 15px;">
+                    <img src="https://cdn.tarladalal.com/members/9306/big/big_gulab_jamun_(__mithai)-15990.jpg"
+                        style="height: 283px; width: 283px; border-radius: 20px; padding-bottom: 10px; justify-content: center;" />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Gulab Jamun </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-1.5 col-md-3 col-sm-6" style="padding-top: 15px;">
+                    <img src="https://cdn-abndc.nitrocdn.com/KidXqHvkFKIabnNEJOITpLSJJqajraJA/assets/images/optimized/rev-9c54b97/zestysouthindiankitchen.com/wp-content/uploads/2016/06/Porulvilangai-2.-970x978.jpg"
+                        style="height: 283px; width: 283px; border-radius: 20px; padding-bottom: 10px; justify-content: center;" />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Porivellangai Urundai </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-1.5 col-md-3 col-sm-6" style="padding-top: 15px;">
+                    <img src="https://www.shutterstock.com/shutterstock/photos/2012286026/display_1500/stock-photo-jangiri-also-known-as-imarti-is-indian-dessert-prepared-by-frying-spiral-shaped-dough-and-soaked-in-2012286026.jpg"
+                        style="height: 283px; width: 283px; border-radius: 20px; padding-bottom: 10px; justify-content: center;" />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Jangri </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-1.5 col-md-3 col-sm-6" style="padding-top: 15px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Laddu_Sweet.JPG/1200px-Laddu_Sweet.JPG"
+                        style="height: 283px; width: 283px; border-radius: 20px; padding-bottom: 10px; justify-content: center;" />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Lattu </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-1.5 col-md-3 col-sm-6" style="padding-top: 15px;">
+                    <img src="https://m.media-amazon.com/images/I/414omkEVVCL.jpg"
+                        style="height: 283px; width: 283px; border-radius: 20px; padding-bottom: 10px; justify-content: center;" />
+                    <div
+                        style="text-align: center; font-weight: bold; font-size: 22px; font-family: source sans-serif; padding-bottom: 10px;">
+                        Halwa </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary " type="button"
+                            style="height: 60px; width: 283px; background: #F17228;color: #FFFFFF; border: none; font-weight: 900; font-size: 18px; ">Order
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: black; color: white; padding-top: 100px; height: 576px;">
+        <div style="padding-top: 20px; padding-left: 100px; padding-right: 100px;">
+            <hr style="border: 2px solid #cfcaca;">
+        </div>
+        <div class="d-flex" style="width: 100%;">
+            <div style="width: 50%;background-color: black; color: white;padding-left: 100px; padding-top: 40px;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col" style="padding-right: 150px;padding-bottom: 30px;">Company</th>
+                            <th scope="col" style="padding-right: 150px; padding-bottom: 30px">Contact</th>
+                            <th scope="col" style="padding-right: 150px; padding-bottom: 30px">Legal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>About us</td>
+                            <td>Help & Support</td>
+                            <td>Terms & Conditions</td>
+                        </tr>
+                        <tr>
+                            <td>Team</td>
+                            <td>Partner with us</td>
+                            <td>Refund & Cancellation</td>
+                        </tr>
+                        <tr>
+                            <td>Careers</td>
+                            <td>Ride with us</td>
+                            <td>Privacy Policy</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Blog</td>
+                            <td>Cookie policy</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="width: 50%; padding-left: 200px; padding-top: 50px;">
+                <div style="padding-bottom: 20px;">
+                    FOLLOW US
+                </div>
+                <div class="d-flex" style=" padding-bottom: 20px;">
+                    <i class='bx bxl-facebook-circle' style="height: 24px; width: 24px;"></i>
+                    <i class='bx bxl-twitter' style="height: 24px; width: 24px;"></i>
+                    <i class='bx bxl-instagram-alt' style="height: 24px; width: 24px;"></i>
+                </div>
+                <div style="padding-bottom: 20px; font-weight: 700 ; font-size: 18px; padding-top: 20px;">
+                    Receive exclusive offers in your mailbox
+                </div>
+                <div class="mb-3 d-flex" style="width: 50%;">
+                    <input type="email" style="background: #424242; color: #ADADAD; border: none; font-weight: bold;"
+                        class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+                    <button type="button" class="btn btn-warning"
+                        style="margin-left: 10px; border-radius: 10px; background: #FFB800; color:  #FFFFFF;font-weight: 700;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 150px; padding-left: 100px; padding-right: 100px;">
+            <hr style="border: 2px solid #cfcaca;">
+        </div>
+    </section>
+</body>
+
+</html>
